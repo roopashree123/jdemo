@@ -1,16 +1,14 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
-gem 'heroku'
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 
 #gem 'mysql','2.8.1'
-gem 'bootstrap-sass', '~> 2.2.1.1'
-gem "carrierwave"
-gem 'geocoder'
+
 
 
 
@@ -55,4 +53,8 @@ end
 group :production do
 gem 'taps'
 gem 'pg'
+gem 'bootstrap-sass', '~> 2.2.1.1'
+gem "carrierwave"
+gem 'geocoder'
+gem 'heroku'
 end
